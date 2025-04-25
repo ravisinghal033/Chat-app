@@ -3,6 +3,9 @@ import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 
+// import dotenv from 'dotenv';
+// const dotenv = require('dotenv');
+dotenv.config();
 import path from "path";
 
 import { connectDB } from "./lib/db.js";
